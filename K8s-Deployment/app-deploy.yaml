@@ -19,6 +19,7 @@ spec:
         image: akramexp/my-repo:python-app-1.0
         ports:
         - containerPort: 5000
+        resources:
       imagePullSecrets:
       - name: regcred
 ---
@@ -27,6 +28,7 @@ kind: Service
 metadata:
   name: python-app-service
 spec:
+  type: LoadBalancer
   selector:
     app: python-app
   ports:

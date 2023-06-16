@@ -1,1 +1,1 @@
-civo_token = ""
+subscription_id = ""

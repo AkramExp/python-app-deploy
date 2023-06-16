@@ -1,0 +1,11 @@
+1. Build the docker image from Dockerfile
+
+2. Pushed it into DockerHub repository
+
+3. cd Terraform then do terraform init and terraform apply to create azure kubernetes cluster
+
+4. create a kubernetes secret file to pull image from DockerHub in kubernetes deployment file.
+
+5. link to create the kubernetes secret for DockerHub https://kubernetes.io/docs/tasks/configure-pod-container/pull-image-private-registry/
+
+6. cd Ansible then do ansible-playbook ansible-playbook.yaml to configure kubernetes cluster to deploy application.
