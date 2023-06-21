@@ -1,11 +1,11 @@
 # Pyhton App Deploy
-In this Project i implemented a DevOps workflow with the help of Kubernetes, Docker, Ansible and Terraform.
+
 
 
 
 
 ## Description
-In this Project I implemented a DevOps workflow with the help of Kubernetes, Docker, Ansible and Terraform.
+In this Project i implemented a DevOps workflow with the help of **Kubernetes**, **Docker**, **Ansible** and **Terraform**.
 
 It uses Dockerfile to create docker image then pushed it to the dockerhub repository. With Terraform the kubernetes cluster is provisioned in azure cloud. Deployment is done with the help of Ansible and Kubernets Configuration files to run pods having containers on pods in kubernetes cluster.
 
