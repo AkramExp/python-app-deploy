@@ -7,11 +7,11 @@
 ## Description
 In this Project i implemented a DevOps workflow with the help of **Kubernetes**, **Docker**, **Ansible** and **Terraform**.
 
-It uses Dockerfile to create docker image then pushed it to the dockerhub repository. 
+- It uses Dockerfile to create docker image then pushed it to the dockerhub repository. 
 
-With Terraform the kubernetes cluster is provisioned in azure cloud. 
+- With Terraform the kubernetes cluster is provisioned in azure cloud. 
 
-Deployment is done with the help of Ansible and Kubernets Configuration files to run pods having containers on pods in kubernetes cluster.
+- Deployment is done with the help of Ansible and Kubernets Configuration files to run pods having containers on pods in kubernetes cluster.
 
 To pull the image from dockerhub repo into kubernetes Deployment file i used the secret file which i created with the help of this resource
 
