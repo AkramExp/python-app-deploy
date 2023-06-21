@@ -1,4 +1,3 @@
-
 # Pyhton App Deploy
 In this Project i implemented a DevOps workflow with the help of Kubernetes, Docker, Ansible and Terraform.
 
