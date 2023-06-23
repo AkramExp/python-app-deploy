@@ -1,4 +1,4 @@
-# Pyhton App Deploy
+# Pyhton App Deploy on K8s
 
 
 
